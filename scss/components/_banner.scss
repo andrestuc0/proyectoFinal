@@ -1,0 +1,65 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  
+    .banner-image {
+      width: 100%;
+      height: 100%;
+      background-image: url(../assets/img/imgBannerPrincipal.webp);
+      background-size: cover;
+      background-position: center;
+      @include transition(transform);
+    }
+  
+    .banner-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: $primary-color;
+      z-index: 2;
+    }
+  
+    .banner-tag {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+  
+    .banner-subtitle {
+      font-size: $font-size-large;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+    }
+  
+    .banner-button {
+      background-color: $primary-color;
+      color: $white;
+      border: none;
+      padding: 10px 30px;
+      font-size: $font-size-normal;
+      text-transform: uppercase;
+      cursor: pointer;
+      @include transition(background-color);
+  
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
+  
+    @media (max-width: $breakpoint-mobile) {
+      height: 300px;
+  
+      .banner-tag {
+        font-size: $font-size-xlarge;
+      }
+  
+      .banner-subtitle {
+        font-size: $font-size-normal;
+      }
+    }
+  }

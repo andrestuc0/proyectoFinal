@@ -1,0 +1,57 @@
+.footer {
+    background-color: $primary-color;
+    color: $white;
+    padding: 3rem 0;
+  
+    h5 {
+      color: $white;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+  
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      li {
+        margin-bottom: 0.5rem;
+      }
+  
+      a {
+        color: #999;
+        @include transition(color);
+  
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  
+    .social-links {
+      a {
+        color: $white;
+        margin-right: 1rem;
+        font-size: $font-size-large;
+      }
+    }
+  
+    .payment-methods {
+      padding-top: 2rem;
+      margin-top: 2rem;
+      border-top: 1px solid #333;
+    }
+  
+    .payment-icon {
+      height: 24px;
+      margin: 0.5rem;
+      background: $white;
+      padding: 3px;
+      border-radius: 4px;
+    }
+  
+    .shipping-icon {
+      height: 30px;
+      margin: 0.5rem;
+    }
+  }

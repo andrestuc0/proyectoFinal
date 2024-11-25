@@ -1,0 +1,60 @@
+.navbar {
+    &-brand {
+      font-size: $font-size-xlarge;
+      font-weight: bold;
+    }
+  
+    .search-form {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .nav-link {
+      color: $primary-color;
+      padding: 0.5rem 1rem !important;
+    }
+  
+    .cart-badge {
+      position: relative;
+      top: -8px;
+      right: 8px;
+      background-color: #ff69b4;
+      color: $white;
+      border-radius: 50%;
+      padding: 0.2rem 0.5rem;
+      font-size: $font-size-small;
+    }
+  }
+  
+  .main-nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .scroll-container {
+    background: $primary-color;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 8px 0;
+  
+    .scroll-text {
+      display: inline-block;
+      animation: scroll 12s linear infinite;
+      padding-left: 100%;
+    }
+  
+    .promociones {
+      color: $white;
+      font-size: $font-size-small;
+      padding: 0 20px;
+    }
+  
+    .money-emoji {
+      color: #85bb65;
+    }
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }

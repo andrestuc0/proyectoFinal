@@ -1,0 +1,14 @@
+.top-bar {
+    background-color: $light-gray;
+    font-size: $font-size-small;
+    padding: 0.5rem 0;
+  
+    a {
+      color: $medium-gray;
+      margin: 0 1rem;
+    }
+  
+    @media (max-width: $breakpoint-mobile) {
+      display: none;
+    }
+  }

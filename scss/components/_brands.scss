@@ -1,0 +1,11 @@
+.brands-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+  }
