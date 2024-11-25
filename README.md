@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio tiene el proyecto final para el curso de Desarrollo Web. Se trata de un sitio web para una tienda, desarrollado utilizando HTML, CSS y el framework Bootstrap. El proyecto consta de una página de inicio y cuatro páginas adicionales, importando componentes y utilidades de Bootstrap para crear una interfaz de usuario responsive y atractiva.
+Este repositorio tiene el proyecto final para el curso de Desarrollo Web. Se trata de un sitio web creado de manera ficticia o generica, ya que no tenía un proyecto o pedido que vaya a tener utilidad, se podra notar que se utilizan imagenes randoms y en lugar de poner nombre de la tienda se utilizó "Marca". Fue desarrollado utilizando HTML, CSS y el framework Bootstrap. El proyecto consta de una página de inicio y cuatro páginas adicionales, importando componentes y utilidades de Bootstrap para crear una interfaz de usuario responsive y atractiva.
 
 ## Características
 
